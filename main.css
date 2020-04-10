@@ -1,32 +1,5 @@
 *{
   box-sizing: border-box;
-} 
-.bgDesign{
-  position: fixed;
-}
-.bluelmg {
-  position: absolute;
-  width: 207px;
-  left: -8px;
-  top: -73px;
-}
-.pinklmg{
-  position: absolute;
-  top: 30em;
-  left: -97px;
-  width: 226px;
-}
-.purplelmg{
-  position: absolute;
-  width: 207px;
-  left: 72em;
-  top: 28em;
-}
-.greenlmg{
-  position: fixed;
-  width: 176px;
-  left: 73em;
-  z-index: -5;
 }
 body{
   font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
@@ -34,6 +7,8 @@ body{
   text-align: center;
   line-height: 2.5;
   font-size: 10px;
+  
+​
 }
 ​
 input,
@@ -58,6 +33,7 @@ textarea {
 }
 label{
   margin-right: 72%;
+​
 }
 a{
   text-decoration: none;
@@ -84,12 +60,20 @@ a{
  margin-left: auto;
  margin-right: auto;
  margin-bottom: 5%;
+​
 }
 .text:focus {
   border-color: #80bdff;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-} 
+}
+​
+​
+#first{
+​
+line-height: 20px;
+
+}
 .title{
 line-height: 0.4rem;
 padding: 30px ;
@@ -120,6 +104,7 @@ background-color: rgb(195, 214, 221);
  margin-right: auto;
  margin-bottom: 5%;
  overflow-y: scroll;
+​
 }
 .option{
 position: relative;
@@ -142,6 +127,8 @@ text-align:center;
 color: black;
 border:3px solid #ccc;
 
+
+​
 }
 ​
 ​
@@ -150,16 +137,7 @@ border:3px solid #ccc;
 .dropdown:hover{
 background-color: rgb(195, 214, 221);
 }
-@media only screen and(max-width: 500px) { 
-  .hide{
-      visibility:hidden;
-  }
-  .greenlmg{
-      position: relative;
-      width: 62px;
-      left: 22em;
-      z-index: -5;
-  }
+@media only screen and(max-width: 70px) {
 body{
     width: 100%;
     margin: 0;
